@@ -1,235 +1,40 @@
 proxies:
-- name: Danu23_LiveMlbi032a
+- name: Danu31_LiveNusa32a
   type: trojan
   server: 104.21.8.121
   port: 443
-  password: 71de750a-b02e-483b-9dae-3f5aa5ec01ca
+  password: 686cda5b-9f7c-4580-917a-0a6af5a49308
   udp: true
-  sni: melbi2.myserver-prem.cloud
+  sni: nusa1.myserver-prem.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan
     headers:
-      Host: melbi2.myserver-prem.cloud
-- name: Danu23_LiveMlbi032b
+      Host: nusa1.myserver-prem.cloud
+- name: Danu31_LiveNusa32b
   type: trojan
   server: 172.67.139.111
   port: 443
-  password: 71de750a-b02e-483b-9dae-3f5aa5ec01ca
+  password: 686cda5b-9f7c-4580-917a-0a6af5a49308
   udp: true
-  sni: melbi2.myserver-prem.cloud
+  sni: nusa1.myserver-prem.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan
     headers:
-      Host: melbi2.myserver-prem.cloud
-- name: Danu23_LiveMlbi032c
+      Host: nusa1.myserver-prem.cloud
+- name: Danu31_LiveNusa32c
   type: trojan
   server: beacon.liveon.id
   port: 443
-  password: 71de750a-b02e-483b-9dae-3f5aa5ec01ca
+  password: 686cda5b-9f7c-4580-917a-0a6af5a49308
   udp: true
-  sni: melbi2.myserver-prem.cloud
+  sni: nusa1.myserver-prem.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan
     headers:
-      Host: melbi2.myserver-prem.cloud
-- name: danu27_LiveID32a
-  type: trojan
-  server: 104.21.8.121
-  port: 443
-  password: 550a51db-7ae1-423c-9fe7-140ec88552ba
-  udp: true
-  sni: id-rmweb.onserver.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: "/xraytrojanws"
-    headers:
-      Host: id-rmweb.onserver.my.id
-- name: danu27_LiveID32b
-  type: trojan
-  server: 172.67.139.111
-  port: 443
-  password: 550a51db-7ae1-423c-9fe7-140ec88552ba
-  udp: true
-  sni: id-rmweb.onserver.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: "/xraytrojanws"
-    headers:
-      Host: id-rmweb.onserver.my.id
-- name: danu27_LiveID32c
-  type: trojan
-  server: beacon.liveon.id
-  port: 443
-  password: 550a51db-7ae1-423c-9fe7-140ec88552ba
-  udp: true
-  sni: id-rmweb.onserver.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: "/xraytrojanws"
-    headers:
-      Host: id-rmweb.onserver.my.id
-- name: danu27_LiveCtn32a
-  type: trojan
-  server: 104.21.8.121
-  port: 443
-  password: f5989f34-bc03-4d89-ab3f-471ea585f98f
-  udp: true
-  sni: ctn.sshpremium.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: "/trojanws"
-    headers:
-      Host: ctn.sshpremium.my.id
-- name: danu27_LiveCtn32b
-  type: trojan
-  server: 172.67.139.111
-  port: 443
-  password: f5989f34-bc03-4d89-ab3f-471ea585f98f
-  udp: true
-  sni: ctn.sshpremium.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: "/trojanws"
-    headers:
-      Host: ctn.sshpremium.my.id
-- name: danu27_LiveCtn32c
-  type: trojan
-  server: beacon.liveon.id
-  port: 443
-  password: f5989f34-bc03-4d89-ab3f-471ea585f98f
-  udp: true
-  sni: ctn.sshpremium.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: "/trojanws"
-    headers:
-      Host: ctn.sshpremium.my.id
-- name: Danu21_LiveMlbiBUa
-  type: trojan
-  server: 104.21.8.121
-  port: 443
-  password: 141f8093-288a-4e25-9bdd-e2d4a5192b7b
-  udp: true
-  sni: melbi2.myserver-prem.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: melbi2.myserver-prem.cloud
-- name: Danu21_LiveMlbiBUb
-  type: trojan
-  server: 172.67.139.111
-  port: 443
-  password: 141f8093-288a-4e25-9bdd-e2d4a5192b7b
-  udp: true
-  sni: melbi2.myserver-prem.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: melbi2.myserver-prem.cloud
-- name: Danu21_LiveMlbiBUc
-  type: trojan
-  server: beacon.liveon.id
-  port: 443
-  password: 141f8093-288a-4e25-9bdd-e2d4a5192b7b
-  udp: true
-  sni: melbi2.myserver-prem.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: melbi2.myserver-prem.cloud
-- name: Danu23_LiveMlbiBUa
-  type: trojan
-  server: 104.21.8.121
-  port: 443
-  password: 71de750a-b02e-483b-9dae-3f5aa5ec01ca
-  udp: true
-  sni: melbi2.myserver-prem.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: melbi2.myserver-prem.cloud
-- name: Danu23_LiveMlbiBUb
-  type: trojan
-  server: 172.67.139.111
-  port: 443
-  password: 71de750a-b02e-483b-9dae-3f5aa5ec01ca
-  udp: true
-  sni: melbi2.myserver-prem.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: melbi2.myserver-prem.cloud
-- name: Danu23_LiveMlbiBUc
-  type: trojan
-  server: beacon.liveon.id
-  port: 443
-  password: 71de750a-b02e-483b-9dae-3f5aa5ec01ca
-  udp: true
-  sni: melbi2.myserver-prem.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: melbi2.myserver-prem.cloud
-- name: Danu25_LiveMlbiBUa
-  type: trojan
-  server: 104.21.8.121
-  port: 443
-  password: de9832d2-61d4-4395-8fa4-3c42422985ba
-  udp: true
-  sni: melbi2.myserver-prem.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: melbi2.myserver-prem.cloud
-- name: Danu25_LiveMlbiBUb
-  type: trojan
-  server: 172.67.139.111
-  port: 443
-  password: de9832d2-61d4-4395-8fa4-3c42422985ba
-  udp: true
-  sni: melbi2.myserver-prem.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: melbi2.myserver-prem.cloud
-- name: Danu25_LiveMlbiBUc
-  type: trojan
-  server: beacon.liveon.id
-  port: 443
-  password: de9832d2-61d4-4395-8fa4-3c42422985ba
-  udp: true
-  sni: melbi2.myserver-prem.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: melbi2.myserver-prem.cloud
+      Host: nusa1.myserver-prem.cloud
