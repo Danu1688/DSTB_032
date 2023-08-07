@@ -1,43 +1,4 @@
 proxies:
-- name: DanuTelkom31_Live32_1
-  type: trojan
-  server: 104.21.8.121
-  port: 443
-  password: f6bbe3be-6216-4198-b28a-6e890c3c33e1
-  udp: true
-  sni: telkom1.myserver-prem.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: telkom1.myserver-prem.cloud
-- name: DanuTelkom31_Live32_2
-  type: trojan
-  server: 172.67.139.111
-  port: 443
-  password: f6bbe3be-6216-4198-b28a-6e890c3c33e1
-  udp: true
-  sni: telkom1.myserver-prem.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: telkom1.myserver-prem.cloud
-- name: DanuTelkom31_Live32_3
-  type: trojan
-  server: beacon.liveon.id
-  port: 443
-  password: f6bbe3be-6216-4198-b28a-6e890c3c33e1
-  udp: true
-  sni: telkom1.myserver-prem.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: telkom1.myserver-prem.cloud
 - name: DanuBackup_LiveDOa
   type: trojan
   server: 104.21.8.121
@@ -116,4 +77,44 @@ proxies:
     path: /trojan
     headers:
       Host: nusa1.myserver-prem.cloud
+- name: DanuTelkom31_Live32_1
+  type: trojan
+  server: 104.21.8.121
+  port: 443
+  password: f6bbe3be-6216-4198-b28a-6e890c3c33e1
+  udp: true
+  sni: telkom1.myserver-prem.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: telkom1.myserver-prem.cloud
+- name: DanuTelkom31_Live32_2
+  type: trojan
+  server: 172.67.139.111
+  port: 443
+  password: f6bbe3be-6216-4198-b28a-6e890c3c33e1
+  udp: true
+  sni: telkom1.myserver-prem.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: telkom1.myserver-prem.cloud
+- name: DanuTelkom31_Live32_3
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: f6bbe3be-6216-4198-b28a-6e890c3c33e1
+  udp: true
+  sni: telkom1.myserver-prem.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: telkom1.myserver-prem.cloud
+
 
