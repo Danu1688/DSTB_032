@@ -1,5 +1,44 @@
 proxies:
-- name: DanuBackup_LiveDOa
+- name: DanuMelbi31_Live32_1
+  type: trojan
+  server: 104.21.8.121
+  port: 443
+  password: 277c5b6d-1184-4987-ae41-06291ac30975
+  udp: true
+  sni: melbi3.myserver-prem.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: melbi3.myserver-prem.cloud
+- name: DanuMelbi31_Live32_2
+  type: trojan
+  server: 172.67.139.111
+  port: 443
+  password: 277c5b6d-1184-4987-ae41-06291ac30975
+  udp: true
+  sni: melbi3.myserver-prem.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: melbi3.myserver-prem.cloud
+- name: DanuMelbi31_Live32_3
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: 277c5b6d-1184-4987-ae41-06291ac30975
+  udp: true
+  sni: melbi3.myserver-prem.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: melbi3.myserver-prem.cloud
+- name: DanuBackup_LiveDO_1
   type: trojan
   server: 104.21.8.121
   port: 443
@@ -12,7 +51,7 @@ proxies:
     path: /trojan
     headers:
       Host: do-2device.myserver-prem.cloud
-- name: DanuBackup_LiveDOb
+- name: DanuBackup_LiveDO_2
   type: trojan
   server: 172.67.139.111
   port: 443
@@ -25,7 +64,7 @@ proxies:
     path: /trojan
     headers:
       Host: do-2device.myserver-prem.cloud
-- name: DanuBackup_LiveDOc
+- name: DanuBackup_LiveDO_3
   type: trojan
   server: beacon.liveon.id
   port: 443
@@ -38,7 +77,7 @@ proxies:
     path: /trojan
     headers:
       Host: do-2device.myserver-prem.cloud
-- name: Danu31_LiveNusa32a
+- name: Danu31_LiveNusa32_1
   type: trojan
   server: 104.21.8.121
   port: 443
@@ -51,7 +90,7 @@ proxies:
     path: /trojan
     headers:
       Host: nusa1.myserver-prem.cloud
-- name: Danu31_LiveNusa32b
+- name: Danu31_LiveNusa32_2
   type: trojan
   server: 172.67.139.111
   port: 443
@@ -64,7 +103,7 @@ proxies:
     path: /trojan
     headers:
       Host: nusa1.myserver-prem.cloud
-- name: Danu31_LiveNusa32c
+- name: Danu31_LiveNusa32_3
   type: trojan
   server: beacon.liveon.id
   port: 443
@@ -77,44 +116,4 @@ proxies:
     path: /trojan
     headers:
       Host: nusa1.myserver-prem.cloud
-- name: DanuTelkom31_Live32_1
-  type: trojan
-  server: 104.21.8.121
-  port: 443
-  password: f6bbe3be-6216-4198-b28a-6e890c3c33e1
-  udp: true
-  sni: telkom1.myserver-prem.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: telkom1.myserver-prem.cloud
-- name: DanuTelkom31_Live32_2
-  type: trojan
-  server: 172.67.139.111
-  port: 443
-  password: f6bbe3be-6216-4198-b28a-6e890c3c33e1
-  udp: true
-  sni: telkom1.myserver-prem.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: telkom1.myserver-prem.cloud
-- name: DanuTelkom31_Live32_3
-  type: trojan
-  server: beacon.liveon.id
-  port: 443
-  password: f6bbe3be-6216-4198-b28a-6e890c3c33e1
-  udp: true
-  sni: telkom1.myserver-prem.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: telkom1.myserver-prem.cloud
-
 
