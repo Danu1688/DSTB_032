@@ -1,7 +1,7 @@
 proxies:
 - name: NansonHPI_LiveDO_1
   type: trojan
-  server: 104.21.8.121
+  server: circles.asia
   port: 443
   password: 5048a49c-821b-449a-8e16-8fd9d39ddc7c
   udp: true
@@ -14,7 +14,7 @@ proxies:
       Host: sgdo2.myserver-prem.xyz
 - name: TrojanWsSvr-Live_1
   type: trojan
-  server: 104.18.1.196
+  server: circles.asia
   port: 443
   password: 9766b64f-2d18-464b-8be5-02231f0e0c44
   udp: true
@@ -27,7 +27,7 @@ proxies:
       Host: sgdo3.dstb.cloud
 - name: DanuMelbi31_Live32_1
   type: trojan
-  server: 104.21.8.121
+  server: circles.asia
   port: 443
   password: 277c5b6d-1184-4987-ae41-06291ac30975
   udp: true
