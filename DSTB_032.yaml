@@ -1,4 +1,17 @@
 proxies:
+- name: NansonHPINusa_LiveNusa_1
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: 3a30ca58-ce2c-4a52-a219-b27da542d5cc
+  udp: true
+  sni: vpna4mvbhv.scpotato.me
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: vpna4mvbhv.scpotato.me
 - name: NansonHPI_LiveDO_1
   type: trojan
   server: circles.asia
