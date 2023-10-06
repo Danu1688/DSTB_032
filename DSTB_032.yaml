@@ -1,18 +1,70 @@
 proxies:
-- name: NansonHPINusa_LiveNusa_1
+- name: NansonHpiNusa_Live_IP1
   type: trojan
-  server: beacon.liveon.id
+  server: 104.17.224.203
   port: 443
-  password: 3a30ca58-ce2c-4a52-a219-b27da542d5cc
+  password: 204f2293-3f09-4648-875e-0e19ff2afbac
   udp: true
-  sni: vpna4mvbhv.scpotato.me
+  sni: nusa.dstb.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /trojan
+    path: /trojan-ws
     headers:
-      Host: vpna4mvbhv.scpotato.me
-- name: NansonHPI_LiveDO_1
+      Host: nusa.dstb.cloud
+- name: NansonHpiNusa_Live_IP2
+  type: trojan
+  server: 104.16.143.190
+  port: 443
+  password: 204f2293-3f09-4648-875e-0e19ff2afbac
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
+- name: NansonHpiNusa_Live_IP3
+  type: trojan
+  server: 172.67.75.37
+  port: 443
+  password: 204f2293-3f09-4648-875e-0e19ff2afbac
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
+- name: NansonHpiNusa_Live_IP4
+  type: trojan
+  server: 104.26.15.208
+  port: 443
+  password: 204f2293-3f09-4648-875e-0e19ff2afbac
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
+- name: NansonHpiNusa_Live_IP5
+  type: trojan
+  server: 104.26.14.208
+  port: 443
+  password: 204f2293-3f09-4648-875e-0e19ff2afbac
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
+- name: NansonHPIDo2_Live_1
   type: trojan
   server: circles.asia
   port: 443
@@ -25,7 +77,7 @@ proxies:
     path: /xraytrojanws
     headers:
       Host: sgdo2.myserver-prem.xyz
-- name: TrojanWsSvr-Live_1
+- name: TrojanWsDo3-Live_1
   type: trojan
   server: circles.asia
   port: 443
